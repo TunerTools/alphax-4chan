@@ -1,6 +1,8 @@
 name: Create Board
 
-on: [ push, pull_request ]
+on:
+  push:
+  workflow-dispatch:
 
 jobs:
   call-workflow-passing-data:
