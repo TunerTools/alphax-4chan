@@ -2,7 +2,7 @@ name: Create Board
 
 on:
   push:
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   call-workflow-passing-data:
